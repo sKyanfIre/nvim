@@ -45,3 +45,23 @@ nnoremap <silent><Leader>wl <c-w>l
 nnoremap <silent><Leader>wh <c-w>h
 
 nnoremap <silent><leader>lg :LazyGit<CR>
+" easymotion
+map <Leader>ml <Plug>(easymotion-lineforward)
+map <Leader>mj <Plug>(easymotion-j)
+map <Leader>mk <Plug>(easymotion-k)
+map <Leader>mh <Plug>(easymotion-linebackward)
+
+" <Leader>f{char} to move to {char}
+map  <Leader>mf <Plug>(easymotion-bd-f)
+nmap <Leader>mf <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+nmap s <Plug>(easymotion-overwin-f2)
+
+" Move to line
+"map <Leader>L <Plug>(easymotion-bd-jk)
+" nmap <Leader>L <Plug>(easymotion-overwin-line)
+
+" Move to word
+map  <Leader>mw <Plug>(easymotion-bd-w)
+nmap <Leader>mw <Plug>(easymotion-overwin-w)
