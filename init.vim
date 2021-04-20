@@ -17,6 +17,7 @@ set updatetime=60
 syntax on
 
 call plug#begin()
+Plug 'kdheepak/lazygit.nvim',
 Plug 'neoclide/coc.nvim',{'branch': 'release'}
 Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'

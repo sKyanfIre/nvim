@@ -10,3 +10,4 @@ plugged/vim-easymotion/
 plugged/vim-surround/
 plugged/vim-snippets/
 plugged/vim-gitgutter/
+plugged/lazygit.nvim/

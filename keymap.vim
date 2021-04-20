@@ -35,3 +35,13 @@ nnoremap <space>e :CocCommand explorer<CR>
 " Use preset argument to open it
 nnoremap <space>en :CocCommand explorer --preset .nvim<CR>
 nnoremap <space>eb :CocCommand explorer --preset buffer<CR>
+noremap <silent><leader>tj :tabnext<CR>
+noremap <silent><leader>tk :tabprevious<CR>
+noremap q :tabclose<CR>
+nnoremap q :close<CR>
+nnoremap <silent><Leader>wj <c-w>j
+nnoremap <silent><Leader>wk <c-w>k
+nnoremap <silent><Leader>wl <c-w>l
+nnoremap <silent><Leader>wh <c-w>h
+
+nnoremap <silent><leader>lg :LazyGit<CR>

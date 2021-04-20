@@ -10,3 +10,9 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
+
+function! LightlineGitBlame() abort
+  let blame = get(b:, 'coc_git_blame', '')
+  " return blame
+  return winwidth(0) > 120 ? blame : ''
+endfunction
