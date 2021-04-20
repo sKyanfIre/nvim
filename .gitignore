@@ -1,0 +1,12 @@
+
+init.vim.back
+plugged/coc.nvim/
+plugged/nvim-treesitter-refactor/
+plugged/nvim-treesitter/
+plugged/playground/
+plugged/vim-airline-themes/
+plugged/vim-airline/
+plugged/vim-easymotion/
+plugged/vim-surround/
+plugged/vim-snippets/
+plugged/vim-gitgutter/

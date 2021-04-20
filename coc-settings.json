@@ -1,0 +1,19 @@
+{ // autoformat
+	"coc.preference.formatOnSaveFiletypes": [
+		"java"
+	],
+	"coc.preferences.extensionUpdateCheck": "daily",
+	"suggest.noselect": true,
+	"suggest.enablePreview": false,
+	"coc.preferences.formatOnSaveFiletypes": [
+		"java",
+		"json"
+	],
+	"java.format.enabled": true,
+	"java.referencesCodeLens.enabled": true,
+	"java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok.jar",
+	"java.home": "/usr/lib/jvm/java-15-openjdk",
+	"java.enabled": true,
+	"java.import.maven.enabled": true
+	//	"java.configuration.maven.userSettings": "/usr/local/src/maven/conf/settings.xml"
+}
