@@ -6,7 +6,6 @@ set wildmenu
 filetype on
 set hlsearch
 set encoding=utf-8
-
 " TextEdit might fail if hidden is not set.
 set hidden
 
@@ -16,7 +15,8 @@ set nowritebackup
 set updatetime=60
 syntax on
 
-call plug#begin()
+call plug#begin('~/.config/nvim/plugged')
+Plug 'tomasr/molokai',
 Plug 'kdheepak/lazygit.nvim',
 Plug 'neoclide/coc.nvim',{'branch': 'release'}
 Plug 'tpope/vim-surround'
