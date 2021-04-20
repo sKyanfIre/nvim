@@ -28,3 +28,10 @@ nmap <silent> <Leader>en <Plug>(coc-diagnostic-next)
 " Use K to show documentation in preview window.
 nnoremap <silent><Leader>h :call <SID>show_documentation()<CR>
 inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+" coc-explorer
+nnoremap <space>e :CocCommand explorer<CR>
+
+" coc-explorer preset 
+" Use preset argument to open it
+nnoremap <space>en :CocCommand explorer --preset .nvim<CR>
+nnoremap <space>eb :CocCommand explorer --preset buffer<CR>
