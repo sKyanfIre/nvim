@@ -56,13 +56,15 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
 " tabline scheme
+let g:airline_theme="luna"
 "  set font 
+let g:airline_powerline_fonts=1
 " lightline
 let g:lightline = {
   \ 'active': {
   \   'left': [
   \     [ 'mode', 'paste' ],
-  \     [ 'ctrlpmark', 'git', 'diagnostic', 'cocstatus', 'filename', 'method' ]
+  \     [ 'ctrlpmark', 'git', 'diagnostic', 'cocstatus', 'fbilename', 'method' ]
   \   ],
   \   'right':[
   \     [ 'filetype', 'fileencoding', 'lineinfo', 'percent' ],
@@ -78,3 +80,5 @@ let g:lightline = {
 let g:molokai_original = 1
 let g:rehash256 = 1
 colorscheme molokai
+
+let g:EasyMotion_startofline = 0 " keep cursor column when JK motion

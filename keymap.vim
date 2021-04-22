@@ -65,3 +65,9 @@ nmap s <Plug>(easymotion-overwin-f2)
 " Move to word
 map  <Leader>mw <Plug>(easymotion-bd-w)
 nmap <Leader>mw <Plug>(easymotion-overwin-w)
+" window split
+noremap <leader>ws :split<CR>
+noremap <leader>wv :vsplit<CR>
+" buffer change
+noremap <leader>bj :bn<CR>
+noremap <leader>bk :bp<CR>
