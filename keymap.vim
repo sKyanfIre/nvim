@@ -3,7 +3,10 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
-nnoremap <Leader><C-a> ggVG
+noremap <C-a> ggVG
+noremap <C-s> :w<CR>
+" fzf
+noremap <S><S> :Files<CR>
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)

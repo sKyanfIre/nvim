@@ -14,3 +14,5 @@ plugged/lazygit.nvim/
 plugged/molokai/
 plugged/tagbar/
 plugged/vim-fugitive/
+plugged/fzf.vim/
+plugged/fzf/

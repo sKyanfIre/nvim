@@ -17,6 +17,8 @@ syntax on
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-fugitive'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'tomasr/molokai',
 Plug 'kdheepak/lazygit.nvim',
 Plug 'neoclide/coc.nvim',{'branch': 'release'}
