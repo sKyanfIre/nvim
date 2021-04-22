@@ -1,5 +1,5 @@
 
-let  g:coc_global_extensions = ['coc-json', 'coc-java', 'coc-highlight', 'coc-lists', 'coc-snippets', 'coc-fzf-preview', 'coc-translator', 'coc-marketplace', 'coc-explorer', 'coc-leetcode', 'coc-java-lombok', 'coc-actions', 'coc-git']
+let  g:coc_global_extensions = ['coc-json', 'coc-java', 'coc-highlight', 'coc-lists', 'coc-snippets', 'coc-fzf-preview', 'coc-translator', 'coc-marketplace', 'coc-explorer', 'coc-leetcode', 'coc-java-lombok', 'coc-actions' ]
 
 " coc-explorer preset
 
@@ -48,7 +48,30 @@ let g:coc_explorer_global_presets = {
 \ }
 
 " air-line
-" open tab
+" air-line-coc
+
+" enable/disable coc integration >
+  let g:airline#extensions#coc#enabled = 1
+
+" change error symbol: >
+  let airline#extensions#coc#error_symbol = 'E:'
+
+" change warning symbol: >
+  let airline#extensions#coc#warning_symbol = 'W:'
+
+" change error format: >
+  let airline#extensions#coc#stl_format_err = '%E{[%e(#%fe)]}'
+
+" change warning format: >
+  let airline#extensions#coc#stl_format_warn = '%W{[%w(#%fw)]}'
+
+" air-line-fzf
+let g:airline#extensions#fzf#enabled = 1
+" air-line-git
+let g:airline#extensions#fugitiveline#enabled = 1
+let g:airline#extensions#fzf#enabled = 1
+let g:airline#extensions#branch#enabled = 1
+" enable the extension
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 " tabline split 
@@ -64,7 +87,7 @@ let g:lightline = {
   \ 'active': {
   \   'left': [
   \     [ 'mode', 'paste' ],
-  \     [ 'ctrlpmark', 'git', 'diagnostic', 'cocstatus', 'fbilename', 'method' ]
+  \     [ 'ctrlpmark', 'git', 'diagnostic', 'cocstatus', 'filename', 'method' ]
   \   ],
   \   'right':[
   \     [ 'filetype', 'fileencoding', 'lineinfo', 'percent' ],

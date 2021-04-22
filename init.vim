@@ -16,6 +16,7 @@ set updatetime=60
 syntax on
 
 call plug#begin('~/.config/nvim/plugged')
+Plug 'tpope/vim-fugitive'
 Plug 'tomasr/molokai',
 Plug 'kdheepak/lazygit.nvim',
 Plug 'neoclide/coc.nvim',{'branch': 'release'}
@@ -28,6 +29,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'nvim-treesitter/nvim-treesitter-refactor'
 Plug 'nvim-treesitter/playground'
+Plug 'majutsushi/tagbar'
 call plug#end()
 source $HOME/.config/nvim/keymap.vim
 source $HOME/.config/nvim/global.vim

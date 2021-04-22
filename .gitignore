@@ -12,3 +12,5 @@ plugged/vim-snippets/
 plugged/vim-gitgutter/
 plugged/lazygit.nvim/
 plugged/molokai/
+plugged/tagbar/
+plugged/vim-fugitive/

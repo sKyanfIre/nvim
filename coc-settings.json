@@ -1,4 +1,8 @@
-{ // autoformat
+{
+	// coc-highlight
+	"highlight.document.enable": true,
+	"highlight.colors.enable": true,
+	// autoformat
 	"coc.preference.formatOnSaveFiletypes": [
 		"java"
 	],

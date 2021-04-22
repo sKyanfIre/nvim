@@ -28,8 +28,10 @@ nmap <silent> <Leader>en <Plug>(coc-diagnostic-next)
 " Use K to show documentation in preview window.
 nnoremap <silent><Leader>h :call <SID>show_documentation()<CR>
 inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+" tabbar
+nnoremap <space>et :TagbarToggle<CR>
 " coc-explorer
-nnoremap <space>e :CocCommand explorer<CR>
+nnoremap <space>ee :CocCommand explorer<CR>
 
 " coc-explorer preset 
 " Use preset argument to open it
@@ -46,14 +48,14 @@ nnoremap <silent><Leader>wh <c-w>h
 
 nnoremap <silent><leader>lg :LazyGit<CR>
 " easymotion
-map <Leader>ml <Plug>(easymotion-lineforward)
-map <Leader>mj <Plug>(easymotion-j)
-map <Leader>mk <Plug>(easymotion-k)
-map <Leader>mh <Plug>(easymotion-linebackward)
+map <Leader>el <Plug>(easymotion-lineforward)
+map <Leader>ej <Plug>(easymotion-j)
+map <Leader>ek <Plug>(easymotion-k)
+map <Leader>eh <Plug>(easymotion-linebackward)
 
 " <Leader>f{char} to move to {char}
-map  <Leader>mf <Plug>(easymotion-bd-f)
-nmap <Leader>mf <Plug>(easymotion-overwin-f)
+map  <Leader>ef <Plug>(easymotion-bd-f)
+nmap <Leader>ef <Plug>(easymotion-overwin-f)
 
 " s{char}{char} to move to {char}{char}
 nmap s <Plug>(easymotion-overwin-f2)
@@ -63,8 +65,8 @@ nmap s <Plug>(easymotion-overwin-f2)
 " nmap <Leader>L <Plug>(easymotion-overwin-line)
 
 " Move to word
-map  <Leader>mw <Plug>(easymotion-bd-w)
-nmap <Leader>mw <Plug>(easymotion-overwin-w)
+map  <Leader>ew <Plug>(easymotion-bd-w)
+nmap <Leader>ew <Plug>(easymotion-overwin-w)
 " window split
 noremap <leader>ws :split<CR>
 noremap <leader>wv :vsplit<CR>
