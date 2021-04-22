@@ -50,10 +50,13 @@ let g:coc_explorer_global_presets = {
 " air-line
 " open tab
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 " tabline split 
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
+" tabline scheme
+"  set font 
 " lightline
 let g:lightline = {
   \ 'active': {
