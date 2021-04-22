@@ -37,3 +37,4 @@ source $HOME/.config/nvim/keymap.vim
 source $HOME/.config/nvim/global.vim
 source $HOME/.config/nvim/function.vim
 source $HOME/.config/nvim/theme.vim
+source $HOME/.config/nvim/command.vim
