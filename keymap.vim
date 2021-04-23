@@ -16,7 +16,7 @@ noremap <C-s> :w<CR>
 " coc-fzf-preview
 
 noremap <silent><c-f> :FzfPreviewProjectFilesRpc<CR>
-noremap <silent><C-f><C-f> :FzfPreviewCtagsRpc<CR>
+noremap <silent><C-f><C-f> :FzfPreviewVistaCtagsRpc<CR>
 noremap <silent><C-f><c-i> :CocCommand fzf-preview.CocImplementations<CR>
 noremap <silent><C-f><c-d> :CocCommand fzf-preview.CocTypeDefinitions<CR>
 noremap <silent><C-f><c-g> :FzfPreviewGitLogsRpc<CR>
@@ -46,7 +46,7 @@ nmap <silent> <Leader>en <Plug>(coc-diagnostic-next)
 nnoremap <silent><Leader>h :call <SID>show_documentation()<CR>
 inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
 " tabbar
-nnoremap <space>et :TagbarToggle<CR>
+" nnoremap <space>et :TagbarToggle<CR>
 " coc-explorer
 nnoremap <space>ee :CocCommand explorer<CR>
 
@@ -92,3 +92,7 @@ noremap <leader>bj :bn<CR>
 noremap <leader>bk :bp<CR>
 " commentary
 "nnoremap gc gcc
+
+
+"vista 
+nnoremap <leader>et :Vista<CR>

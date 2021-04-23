@@ -1,6 +1,8 @@
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'liuchengxu/vista.vim'
+Plug 'rbgrouleff/bclose.vim'
+Plug 'francoiscabrol/ranger.vim'
 Plug 'uguu-org/vim-matrix-screensaver'
 Plug 'tpope/vim-commentary'
 "Plug 'junegunn/vim-peekaboo'
