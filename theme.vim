@@ -1,3 +1,4 @@
+hi Normal  ctermfg=252 ctermbg=none
 " remove blank from sessionoptions
 set sessionoptions=buffers,curdir,folds,help,tabpages,winsize
 " theme
@@ -7,6 +8,7 @@ set number
 set relativenumber 
 set ignorecase
 set wildmenu
+
 filetype on
 set hlsearch
 set encoding=utf-8
