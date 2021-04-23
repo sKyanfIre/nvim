@@ -5,7 +5,7 @@ let g:rehash256 = 1
 "colorscheme dark_plus
 colorscheme molokai
 
-let  g:coc_global_extensions = ['coc-json', 'coc-java', 'coc-highlight', 'coc-lists', 'coc-snippets', 'coc-translator', 'coc-marketplace', 'coc-explorer', 'coc-leetcode', 'coc-java-lombok', 'coc-actions', 'coc-vimlsp', 'coc-fzf-preview', 'coc-pairs']
+let  g:coc_global_extensions = ['coc-json', 'coc-java', 'coc-highlight', 'coc-lists', 'coc-snippets', 'coc-translator', 'coc-marketplace', 'coc-explorer', 'coc-leetcode', 'coc-java-lombok', 'coc-actions', 'coc-vimlsp', 'coc-fzf-preview', 'coc-pairs', 'coc-tag', 'coc-todolist', 'coc-java-vimspector']
 
 " coc-explorer preset
 

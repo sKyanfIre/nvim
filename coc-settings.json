@@ -3,9 +3,6 @@
 	"highlight.document.enable": true,
 	"highlight.colors.enable": true,
 	// autoformat
-	"coc.preference.formatOnSaveFiletypes": [
-		"java"
-	],
 	"coc.preferences.extensionUpdateCheck": "daily",
 	"suggest.noselect": true,
 	"suggest.enablePreview": false,
@@ -13,6 +10,12 @@
 		"java",
 		"json"
 	],
+	"java.maven.downloadSources": true,
+	"java.implementationsCodeLens.enabled": true,
+	"java.format.comments.enabled": true,
+	"java.saveActions.organizeImports": true,
+	"java.jdt.ls.home": "~/.config/nvim/lsp/java/",
+	"java.autobuild.enabled": true,
 	"java.format.enabled": true,
 	"java.referencesCodeLens.enabled": true,
 	"java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok.jar",
