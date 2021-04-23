@@ -1,3 +1,5 @@
+" remove blank from sessionoptions
+set sessionoptions=buffers,curdir,folds,help,tabpages,winsize
 " theme
 set cursorline
 

@@ -1,5 +1,6 @@
 
 call plug#begin('~/.config/nvim/plugged')
+Plug 'uguu-org/vim-matrix-screensaver'
 Plug 'tpope/vim-commentary'
 "Plug 'junegunn/vim-peekaboo'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}

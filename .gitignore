@@ -23,3 +23,7 @@ plugged/vim-commentary/
 plugged/vim-startify/
 plugged/vim-visual-multi/
 plugged/vim-which-key/
+plugged/vim-matrix-screensaver/
+session/__LAST__
+session/nvim
+session/tms-server

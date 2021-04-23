@@ -107,4 +107,8 @@ let g:lightline = {
 
 
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
-
+" startify
+" open startify session
+let g:startify_session_dir = '~/.config/nvim/session' 
+let g:startify_session_autoload = 0
+let g:startify_session_persistence = 0
