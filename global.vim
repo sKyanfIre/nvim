@@ -112,3 +112,12 @@ let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 let g:startify_session_dir = '~/.config/nvim/session' 
 let g:startify_session_autoload = 0
 let g:startify_session_persistence = 0
+" change startify list order
+let g:startify_lists = [
+          \ { 'type': 'sessions',  'header': ['   Sessions']       },
+          \ { 'type': 'dir',       'header': ['   MRU '. getcwd()] },
+          \ { 'type': 'files',     'header': ['   MRU']            },
+          \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+          \ { 'type': 'commands',  'header': ['   Commands']       },
+          \ ]
+<
