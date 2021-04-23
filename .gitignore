@@ -27,3 +27,6 @@ plugged/vim-matrix-screensaver/
 session/__LAST__
 session/nvim
 session/tms-server
+plugged/fzf-preview.vim/
+plugged/fzf-preview/
+plugged/vim-devicons/

@@ -6,13 +6,16 @@ inoremap <C-l> <Right>
 noremap <C-a> ggVG
 noremap <C-s> :w<CR>
 " fzf
-noremap <c-f> :Files<CR>
-"xnoremap <c-f> <plug><fzf-maps-x>
-"onoremap <c-f> <plug><fzf-maps-o>
-"nmap <leader><tab> <plug>(fzf-maps-n)
-imap <c-f><c-w> <plug>(fzf-complete-word)
-imap <c-f><c-p> <plug>(fzf-complete-path)
-imap <c-f><c-l> <plug>(fzf-complete-line)
+"noremap <c-f> :Files<CR>
+""xnoremap <c-f> <plug><fzf-maps-x>
+""onoremap <c-f> <plug><fzf-maps-o>
+""nmap <leader><tab> <plug>(fzf-maps-n)
+"imap <c-f><c-w> <plug>(fzf-complete-word)
+"imap <c-f><c-p> <plug>(fzf-complete-path)
+"imap <c-f><c-l> <plug>(fzf-complete-line)
+" coc-fzf-preview
+
+noremap <silent><c-f> :FzfPreviewProjectFilesRpc<CR>
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
