@@ -82,3 +82,5 @@ noremap <leader>wv :vsplit<CR>
 " buffer change
 noremap <leader>bj :bn<CR>
 noremap <leader>bk :bp<CR>
+" commentary
+"nnoremap gc gcc

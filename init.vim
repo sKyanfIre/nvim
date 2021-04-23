@@ -1,22 +1,13 @@
-set number
-set relativenumber 
-set ignorecase
-let mapleader = " "
-set wildmenu
-filetype on
-set hlsearch
-set encoding=utf-8
-" TextEdit might fail if hidden is not set.
-set hidden
-
-" Some servers have issues with backup files, see #649.
-set nobackup
-set nowritebackup
-set updatetime=60
-syntax on
-
 call plug#begin('~/.config/nvim/plugged')
+Plug 'tpope/vim-commentary'
 "Plug 'junegunn/vim-peekaboo'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+"Plug 'dunstontc/vim-vscode-theme'
+Plug 'romgrk/doom-one.vim'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+Plug 'mhinz/vim-startify'
+Plug 'liuchengxu/vim-which-key'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -38,4 +29,3 @@ source $HOME/.config/nvim/keymap.vim
 source $HOME/.config/nvim/global.vim
 source $HOME/.config/nvim/function.vim
 source $HOME/.config/nvim/theme.vim
-source $HOME/.config/nvim/command.vim

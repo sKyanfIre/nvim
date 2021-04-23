@@ -1,3 +1,9 @@
+let mapleader = " "
+" theme molokai
+let g:molokai_original = 1
+let g:rehash256 = 1
+"colorscheme dark_plus
+colorscheme molokai
 
 let  g:coc_global_extensions = ['coc-json', 'coc-java', 'coc-highlight', 'coc-lists', 'coc-snippets', 'coc-fzf-preview', 'coc-translator', 'coc-marketplace', 'coc-explorer', 'coc-leetcode', 'coc-java-lombok', 'coc-actions' ]
 
@@ -99,9 +105,6 @@ let g:lightline = {
   \ }
 \ }
 
-" theme molokai
-let g:molokai_original = 1
-let g:rehash256 = 1
-colorscheme molokai
 
 let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
+
