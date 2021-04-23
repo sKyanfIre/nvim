@@ -16,6 +16,7 @@ set updatetime=60
 syntax on
 
 call plug#begin('~/.config/nvim/plugged')
+"Plug 'junegunn/vim-peekaboo'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
