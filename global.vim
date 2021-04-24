@@ -1,4 +1,5 @@
-let mapleader = " "
+" let mapleader = " "
+let g:ranger_map_keys = 0
 " theme molokai
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -139,3 +140,8 @@ let g:vista#renderer#icons = {
 \   "function": "\uf794",
 \   "variable": "\uf71b",
 \  }
+
+let g:which_key_vertical = 0 
+let g:which_key_position = 'botright'
+let g:which_key_hspace = 5 
+let g:which_key_centered = 1

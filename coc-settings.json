@@ -14,7 +14,6 @@
 	"java.implementationsCodeLens.enabled": true,
 	"java.format.comments.enabled": true,
 	"java.saveActions.organizeImports": true,
-	"java.jdt.ls.home": "~/.config/nvim/lsp/java/",
 	"java.autobuild.enabled": true,
 	"java.format.enabled": true,
 	"java.referencesCodeLens.enabled": true,

@@ -1,3 +1,6 @@
+
+" By default timeoutlen is 1000 ms
+set timeoutlen=500
 hi Normal  ctermfg=252 ctermbg=none
 " remove blank from sessionoptions
 set sessionoptions=buffers,curdir,folds,help,tabpages,winsize

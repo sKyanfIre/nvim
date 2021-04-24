@@ -33,3 +33,9 @@ plugged/vim-devicons/
 plugged/vista.vim/
 plugged/bclose.vim/
 plugged/ranger.vim/
+lsp/ch.qos.logback.classic_1.2.3.v20200428-2012.jar
+lsp/ch.qos.logback.core_1.2.3.v20200428-2012.jar
+lsp/ch.qos.logback.slf4j_1.2.3.v20200428-2012.jar
+lsp/
+
+session/cloud
