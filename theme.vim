@@ -1,6 +1,6 @@
 
 " By default timeoutlen is 1000 ms
-set timeoutlen=500
+set timeoutlen=800
 hi Normal  ctermfg=252 ctermbg=none
 " remove blank from sessionoptions
 set sessionoptions=buffers,curdir,folds,help,tabpages,winsize
@@ -12,6 +12,9 @@ set relativenumber
 set ignorecase
 set wildmenu
 
+set shiftwidth=4
+set ts=4
+set expandtab
 filetype on
 set hlsearch
 set encoding=utf-8

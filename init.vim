@@ -31,8 +31,9 @@ Plug 'nvim-treesitter/nvim-treesitter-refactor'
 Plug 'nvim-treesitter/playground'
 Plug 'majutsushi/tagbar'
 call plug#end()
-source $HOME/.config/nvim/keymap.vim
-source $HOME/.config/nvim/global.vim
-source $HOME/.config/nvim/function.vim
+source $HOME/.config/nvim/functions.vim
 source $HOME/.config/nvim/theme.vim
+source $HOME/.config/nvim/keymap.vim
+source $HOME/.config/nvim/settings.vim
 source $HOME/.config/nvim/whichkey.vim
+
