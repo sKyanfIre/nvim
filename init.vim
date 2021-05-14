@@ -30,6 +30,7 @@ Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'nvim-treesitter/nvim-treesitter-refactor'
 Plug 'nvim-treesitter/playground'
 Plug 'majutsushi/tagbar'
+Plug 'lyokha/vim-xkbswitch'
 call plug#end()
 source $HOME/.config/nvim/functions.vim
 source $HOME/.config/nvim/theme.vim
