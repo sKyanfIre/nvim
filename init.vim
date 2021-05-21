@@ -33,6 +33,7 @@ Plug 'majutsushi/tagbar'
 Plug 'lyokha/vim-xkbswitch'
 Plug 'yggdroot/indentline'
 Plug 'tpope/vim-repeat'
+Plug 'machakann/vim-highlightedyank'
 call plug#end()
 source $HOME/.config/nvim/functions.vim
 source $HOME/.config/nvim/theme.vim
