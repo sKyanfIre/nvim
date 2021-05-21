@@ -40,3 +40,5 @@ lsp/
 
 session/cloud
 plugged/vim-xkbswitch/
+plugged/indentline/
+plugged/vim-repeat/

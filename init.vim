@@ -31,6 +31,8 @@ Plug 'nvim-treesitter/nvim-treesitter-refactor'
 Plug 'nvim-treesitter/playground'
 Plug 'majutsushi/tagbar'
 Plug 'lyokha/vim-xkbswitch'
+Plug 'yggdroot/indentline'
+Plug 'tpope/vim-repeat'
 call plug#end()
 source $HOME/.config/nvim/functions.vim
 source $HOME/.config/nvim/theme.vim

@@ -5,6 +5,9 @@ inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 noremap <C-a> ggVG
 noremap <C-s> :w<CR>
+" copy && paste 
+noremap <C-y> "*y
+noremap <c-p> "*p
 " fzf
 "noremap <c-f> :Files<CR>
 ""xnoremap <c-f> <plug><fzf-maps-x>
