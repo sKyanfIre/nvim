@@ -8,6 +8,8 @@ noremap <C-s> :w<CR>
 " copy && paste 
 noremap <C-y> "*y
 noremap <c-p> "*p
+" close highlight 
+nnoremap <esc> :noh<return><esc>
 " fzf
 "noremap <c-f> :Files<CR>
 ""xnoremap <c-f> <plug><fzf-maps-x>

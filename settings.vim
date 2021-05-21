@@ -3,8 +3,9 @@ let g:ranger_map_keys = 0
 " theme molokai
 let g:molokai_original = 1
 let g:rehash256 = 1
-"colorscheme dark_plus
-colorscheme molokai
+" colorscheme dark_plus
+" colorscheme molokai
+colorscheme codedark
 
 let  g:coc_global_extensions = ['coc-json', 'coc-java', 'coc-highlight', 'coc-lists', 'coc-snippets', 'coc-translator', 'coc-marketplace', 'coc-explorer', 'coc-leetcode', 'coc-java-lombok', 'coc-actions', 'coc-vimlsp', 'coc-fzf-preview', 'coc-pairs', 'coc-tag', 'coc-todolist', 'coc-java-vimspector']
 
@@ -86,7 +87,9 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
 " tabline scheme
-let g:airline_theme="luna"
+" let g:airline_theme="luna"
+" let g:airline_theme="codedark"
+let g:airline_theme="violet"
 "  set font 
 let g:airline_powerline_fonts=1
 " lightline
@@ -145,4 +148,7 @@ let g:which_key_vertical = 0
 let g:which_key_position = 'botright'
 let g:which_key_hspace = 5 
 let g:which_key_centered = 1
+" indentline
+let g:indent_guides_guide_size =1 "dui qi xian de1 chi cun"
+let g:indent_guides_start_level = 2 "cong di er ceng kai shi dui qi"
 

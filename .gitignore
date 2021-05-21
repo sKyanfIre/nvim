@@ -42,3 +42,6 @@ session/cloud
 plugged/vim-xkbswitch/
 plugged/indentline/
 plugged/vim-repeat/
+plugged/vim-code-dark/
+plugged/vim-vscode-theme/
+plugged/vim-highlightedyank/
