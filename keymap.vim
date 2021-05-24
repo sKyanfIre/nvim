@@ -66,8 +66,8 @@ inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<
 " nnoremap <space>eb :CocCommand explorer --preset buffer<CR>
 " noremap <silent><leader>tj :tabnext<CR>
 " noremap <silent><leader>tk :tabprevious<CR>
-nnoremap q :tabclose<CR>
-nnoremap q :close<CR>
+noremap <c-q> :tabclose<CR>
+noremap <c-q> :close<CR>
 
 " nnoremap q :BufferClose<CR>
 " nnoremap <silent><Leader>wj <c-w>j
