@@ -7,9 +7,13 @@ Plug 'uguu-org/vim-matrix-screensaver'
 Plug 'tpope/vim-commentary'
 "Plug 'junegunn/vim-peekaboo'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+" theme
 Plug 'dunstontc/vim-vscode-theme'
 Plug 'tomasiser/vim-code-dark'
 Plug 'romgrk/doom-one.vim'
+Plug 'rakr/vim-one'
+Plug 'liuchengxu/space-vim-dark'
+" theme
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
 Plug 'mhinz/vim-startify'

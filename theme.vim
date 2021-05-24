@@ -6,6 +6,7 @@ hi Normal  ctermfg=252 ctermbg=none
 set sessionoptions=buffers,curdir,folds,help,tabpages,winsize
 " theme
 set cursorline
+" hi CursorLine cterm=NONE ctermbg=yellow ctermfg=white guibg=yellow guifg=white
 
 set number
 set relativenumber 

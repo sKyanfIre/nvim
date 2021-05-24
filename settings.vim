@@ -5,9 +5,18 @@ let g:molokai_original = 1
 let g:rehash256 = 1
 " colorscheme dark_plus
 " colorscheme molokai
-colorscheme codedark
+ " colorscheme codedark
+" colorscheme one
+" set background=dark
 
-let  g:coc_global_extensions = ['coc-json', 'coc-java', 'coc-highlight', 'coc-lists', 'coc-snippets', 'coc-translator', 'coc-marketplace', 'coc-explorer', 'coc-leetcode', 'coc-java-lombok', 'coc-actions', 'coc-vimlsp', 'coc-fzf-preview', 'coc-pairs', 'coc-tag', 'coc-todolist', 'coc-java-vimspector']
+colorscheme space-vim-dark
+hi Comment cterm=italic
+hi Comment guifg=#5c6370 ctermfg=59
+hi Normal ctermbg=NONE guibg=NONE
+hi LineNr ctermbg=NONE guibg=NONE
+hi SignColumn ctermbg=NONE guibg=NONE
+
+let  g:coc_global_extensions = ['coc-xml', 'coc-json', 'coc-java', 'coc-highlight', 'coc-lists', 'coc-snippets', 'coc-translator', 'coc-marketplace', 'coc-explorer', 'coc-leetcode', 'coc-java-lombok', 'coc-actions', 'coc-vimlsp', 'coc-fzf-preview', 'coc-pairs', 'coc-tag', 'coc-todolist', 'coc-java-vimspector']
 
 " coc-explorer preset
 
