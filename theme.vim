@@ -29,3 +29,4 @@ set updatetime=60
 syntax on
 set termguicolors
 set clipboard+=unnamed
+set foldmethod=indent
