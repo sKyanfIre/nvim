@@ -30,3 +30,5 @@ syntax on
 set termguicolors
 set clipboard+=unnamed
 " set foldmethod=indent
+" set foldmethod=expr
+" set foldexpr=nvim_treesitter#foldexpr()

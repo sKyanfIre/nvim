@@ -47,3 +47,7 @@ plugged/vim-vscode-theme/
 plugged/vim-highlightedyank/
 plugged/space-vim-dark/
 plugged/vim-one/
+autoload/plug.vim
+autoload/plug.vim.old
+plugged/nvim-treesitter-context/
+plugged/nvim-ts-rainbow/

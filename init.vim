@@ -13,6 +13,7 @@ Plug 'tomasiser/vim-code-dark'
 Plug 'romgrk/doom-one.vim'
 Plug 'rakr/vim-one'
 Plug 'liuchengxu/space-vim-dark'
+Plug 'tomasr/molokai',
 " theme
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
@@ -22,7 +23,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'yuki-yano/fzf-preview.vim'
-Plug 'tomasr/molokai',
 Plug 'kdheepak/lazygit.nvim',
 Plug 'neoclide/coc.nvim',{'branch': 'release'}
 Plug 'tpope/vim-surround'
@@ -31,10 +31,13 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'honza/vim-snippets'
 Plug 'easymotion/vim-easymotion'
-Plug 'nvim-treesitter/nvim-treesitter'
+" treesitter
+Plug 'nvim-treesitter/nvim-treesitter',{'do': ':TSUpdate'}
 Plug 'nvim-treesitter/nvim-treesitter-refactor'
 Plug 'nvim-treesitter/playground'
-" Plug 'majutsushi/tagbar'
+Plug 'romgrk/nvim-treesitter-context'
+Plug 'p00f/nvim-ts-rainbow'
+" treesitter
 Plug 'preservim/tagbar'
 Plug 'lyokha/vim-xkbswitch'
 Plug 'yggdroot/indentline'
@@ -46,4 +49,5 @@ source $HOME/.config/nvim/theme.vim
 source $HOME/.config/nvim/keymap.vim
 source $HOME/.config/nvim/settings.vim
 source $HOME/.config/nvim/whichkey.vim
+source $HOME/.config/nvim/script.vim
 
