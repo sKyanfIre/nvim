@@ -47,7 +47,7 @@ let g:which_key_map.b = {
       \ 'r' : ['BufferCloseBuffersRight'        , 'delete-right-buffer']   ,
       \ 'f' : ['bfirst'    , 'first-buffer']    ,
       \ 'h' : ['Startify'  , 'home-buffer']     ,
-      \ 'l' : ['blast'     , 'last-buffer']     ,
+      \ 'l' : ['BufferOrderByLanguage'     , 'OrderByLanguage']     ,
       \ 'j' : ['bnext'     , 'next-buffer']     ,
       \ 'k' : ['bprevious' , 'previous-buffer'] ,
       \ '/' : ['Buffers'   , 'fzf-buffer']      ,

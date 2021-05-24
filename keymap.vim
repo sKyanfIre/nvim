@@ -105,3 +105,33 @@ nnoremap q :close<CR>
 " commentary
 "nnoremap gc gcc
 
+"barbar
+" Move to previous/next
+noremap <silent>    <A-,> :BufferPrevious<CR>
+noremap <silent>    <A-.> :BufferNext<CR>
+" Re-order to previous/next
+noremap <silent>    <A-<> :BufferMovePrevious<CR>
+noremap <silent>    <A->> :BufferMoveNext<CR>
+" Goto buffer in position...
+noremap <silent>    <A-1> :BufferGoto 1<CR>
+noremap <silent>    <A-2> :BufferGoto 2<CR>
+noremap <silent>    <A-3> :BufferGoto 3<CR>
+noremap <silent>    <A-4> :BufferGoto 4<CR>
+noremap <silent>    <A-5> :BufferGoto 5<CR>
+noremap <silent>    <A-6> :BufferGoto 6<CR>
+noremap <silent>    <A-7> :BufferGoto 7<CR>
+noremap <silent>    <A-8> :BufferGoto 8<CR>
+noremap <silent>    <A-9> :BufferGoto 9<CR>
+noremap <silent>    <A-0> :BufferLast<CR>
+
+
+" Close buffer
+noremap <silent>    <A-q> :BufferClose<CR>
+noremap <silent>    <A-o> :BufferCloseAllButCurrent<CR>
+" Magic buffer-picking mode
+noremap <silent> <A-p>    :BufferPick<CR>
+" resize window
+noremap <silent> <A--> :resize-5<CR> 
+noremap <silent> <A-=> :resize+5<CR>
+noremap <silent> <A-[> <C-w>10<
+noremap <silent> <A-]> <C-w>10>
