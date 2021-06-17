@@ -135,3 +135,7 @@ noremap <silent> <A--> :resize-5<CR>
 noremap <silent> <A-=> :resize+5<CR>
 noremap <silent> <A-[> <C-w>10<
 noremap <silent> <A-]> <C-w>10>
+" <CR> types pair auto line
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
+                    \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+    
