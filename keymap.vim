@@ -49,7 +49,7 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-inoremap <silent><expr> <c-o> coc#refresh()
+" inoremap <silent><expr> <c-o> coc#refresh()
 " nmap <silent> <Leader>ep <Plug>(coc-diagnostic-prev)
 " nmap <silent> <Leader>en <Plug>(coc-diagnostic-next)
 " Use K to show documentation in preview window.
