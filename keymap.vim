@@ -3,8 +3,9 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
-noremap <C-a> ggVG
-noremap <C-s> :w<CR>
+" noremap <C-a> ggVG
+imap <C-s> <esc>:w<CR>
+nmap <C-s> <esc>:w<CR>
 " copy && paste 
 noremap <C-y> "*y
 noremap <c-p> "*p
